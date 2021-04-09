@@ -14,11 +14,19 @@ nav {
 }
 
 main .container {
-    height: 900px;
+    height: 1000px;
 }
 main .row {
     margin: 15px auto;
 }
+
+[class*="color"] {
+    height: 100%;
+}
+.image [class*="col-"] {
+    margin: 10px 0;
+}
+
 
 #around {
     height: 400px;
@@ -31,21 +39,21 @@ main .row {
 }
 
 /* COLOR */
-.pick {
+.colorpink {
     background-color: #BA4B63;
 }
-.lightblue {
+.colorlightblue {
     background-color: #1EA4B6;
 }
-.black {
+.colorblack {
     background-color: #140F0F;
 }
-.cyan {
+.colorcyan {
     background-color: #1C83C1;
 }
-.blue {
+.colorblue {
     background-color: #0E38B5;
 }
-.salmon {
+.colorsalmon {
     background-color: #CCB2A3;
 }
