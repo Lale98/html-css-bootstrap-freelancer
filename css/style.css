@@ -14,8 +14,10 @@ nav {
 }
 
 main .container {
-    height: 200px;
-    margin: 15px 10px;
+    height: 900px;
+}
+main .row {
+    margin: 15px auto;
 }
 
 #around {
