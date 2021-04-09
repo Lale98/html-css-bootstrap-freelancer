@@ -18,6 +18,16 @@ main .container {
     color:
 }
 
+#about {
+    height: 400px;
+    background-color: #3A546D;
+}
+
+#copyright {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
 /* COLOR */
 .pick {
     background-color: #BA4B63;
@@ -36,4 +46,9 @@ main .container {
 }
 .salmon {
     background-color: #CCB2A3;
+}
+
+/* SM */
+@media screen and (min-width: 750px) {
+  
 }
