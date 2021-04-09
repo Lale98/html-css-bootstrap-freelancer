@@ -7,6 +7,7 @@ nav {
     background-color: #2C3E50;
 }
 
+.about,
 .jumbotron {
     height: 500px;
     background-color: #1ABC9C;
@@ -15,10 +16,9 @@ nav {
 main .container {
     height: 200px;
     margin: 15px 10px;
-    color:
 }
 
-#about {
+#around {
     height: 400px;
     background-color: #3A546D;
 }
@@ -46,9 +46,4 @@ main .container {
 }
 .salmon {
     background-color: #CCB2A3;
-}
-
-/* SM */
-@media screen and (min-width: 750px) {
-  
 }
