@@ -11,3 +11,29 @@ nav {
     height: 500px;
     background-color: #1ABC9C;
 }
+
+main .container {
+    height: 200px;
+    margin: 15px 10px;
+    color:
+}
+
+/* COLOR */
+.pick {
+    background-color: #BA4B63;
+}
+.lightblue {
+    background-color: #1EA4B6;
+}
+.black {
+    background-color: #140F0F;
+}
+.cyan {
+    background-color: #1C83C1;
+}
+.blue {
+    background-color: #0E38B5;
+}
+.salmon {
+    background-color: #CCB2A3;
+}
