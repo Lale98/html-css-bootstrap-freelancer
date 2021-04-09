@@ -1,0 +1,13 @@
+.debug [class*="col-"] {
+    height: 100px;
+    border: 1px solid black;
+}
+
+nav {
+    background-color: #2C3E50;
+}
+
+.jumbotron {
+    height: 500px;
+    background-color: #1ABC9C;
+}
