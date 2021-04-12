@@ -13,6 +13,9 @@ h1 {
 h3 {
     font-size: 18px;
 }
+.text_black {
+    color: black;
+}
 
 /* NAVBAR */
 .ms_navbar {
@@ -80,9 +83,11 @@ h3 {
 .bold {
     font-weight: bold;
 }
-#portfolio .star {
+#portfolio .star,
+#contact .star {
     color: #3A546D;
 }
+#contact .star hr,
 #portfolio .star hr {
     border-color: #3A546D;
 }
@@ -125,48 +130,106 @@ main .btn-default {
 .fa-download {
     margin-right: 8px;
 }
+
+label {
+    font-size: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem);
+    padding: 0.375rem 0.75rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.125rem solid #ced4da;
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+.list_inline {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.list_inline li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.list_inline a {
+    text-decoration: none;
+    color: white;
+}
+
+#around .list_inline a {
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
 #around {
-    height: 400px;
     background-color: #3A546D;
+    min-height: 250px;
+}
+#around h3 {
+    font-size: 20px;
+}
+#around p {
+    font-size: 20px;
+}
+#around span {
+    color: #1ABC9C;
+}
+#around [class*="col-"] {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #copyright {
     height: 100px;
     background-color: #2C3E50;
 }
-
-/* COLOR */
-.colorpink {
-    background-color: #BA4B63;
-}
-.colorlightblue {
-    background-color: #1EA4B6;
-}
-.colorblack {
-    background-color: #140F0F;
-}
-.colorcyan {
-    background-color: #1C83C1;
-}
-.colorblue {
-    background-color: #0E38B5;
-}
-.colorsalmon {
-    background-color: #CCB2A3;
+#copyright h4 {
+    margin: 0;
+    padding-top: 30px;
 }
 
-@media screen and (min-width: 770px) {
-  
+
+@media screen and (min-width: 991px) {
+    
     .ms_navbar .navbar-brand {
         font-size: 24px;
     }
-
+    
     .ms_navbar .navbar-collapse {
         font-size: 18px;
     }
-
+    
     #jumbotron h1 {
         font-size: 60px;
     }
 
+    #around [class*="col-"] {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
 }
