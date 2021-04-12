@@ -1,3 +1,9 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+    height: 1000px;
+}
 /* NAVBAR */
 .ms_navbar {
     text-transform: uppercase;
@@ -37,3 +43,18 @@
     }
 
 }
+
+
+.fa-download {
+    margin-right: 5px;
+}
+
+.about .btn-default {
+    background-color: #1ABC9C;
+    color: white;
+    border: 1px solid white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+

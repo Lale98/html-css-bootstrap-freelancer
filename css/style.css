@@ -62,12 +62,12 @@ h3 {
     vertical-align: middle;
 }
 .star {
-    width: 50%;
     margin: 0 auto;
 }
 .star hr {
     vertical-align: middle;
-    width: 33%;
+    width: 20%;
+    max-width: 150px;
     display: inline-block;
     border: 2px solid white;
 }
@@ -77,7 +77,7 @@ h3 {
     padding: 50px 0;
     color: #3A546D;
 }
-#portfolio h2 {
+.bold {
     font-weight: bold;
 }
 #portfolio .star {
@@ -95,11 +95,36 @@ h3 {
     border-radius: 10px;
 }
 
-.wrapper60 {
-    width: 60%;
+.wrapper70 {
+    width: 70%;
     margin: 0 auto;
 }
-
+#about {
+    padding: 20px;
+}
+#about .star i {
+    margin: 15px 1px;
+    font-size: 25px;
+}
+#about p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#about button {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+main .btn-default {
+    background-color: #1ABC9C;
+    color: white;
+    border: 1px solid white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.fa-download {
+    margin-right: 8px;
+}
 #around {
     height: 400px;
     background-color: #3A546D;
@@ -138,6 +163,10 @@ h3 {
 
     .ms_navbar .navbar-collapse {
         font-size: 18px;
+    }
+
+    #jumbotron h1 {
+        font-size: 60px;
     }
 
 }
