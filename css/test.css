@@ -1,0 +1,39 @@
+/* NAVBAR */
+.ms_navbar {
+    text-transform: uppercase;
+    background-color: #2C3E50;
+    border-radius: 0;
+    height: 100px;
+}
+.ms_navbar .navbar-brand {
+    font-weight: bold;
+}
+.ms_navbar a {
+    line-height: 100px;
+    padding: 0 15px;
+    color: white;
+}
+.ms_navbar .icon-bar {
+    background-color: white;
+}
+.ms_navbar .navbar-toggle {
+    border: 1px solid white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.ms_navbar .navbar-collapse {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 770px) {
+  
+    .ms_navbar .navbar-brand {
+        font-size: 24px;
+    }
+
+    .ms_navbar .navbar-collapse {
+        font-size: 18px;
+    }
+
+}

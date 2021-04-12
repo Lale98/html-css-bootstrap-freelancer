@@ -4,92 +4,116 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="css/style.css">
         <title>Document</title>
     </head>
-    <body class="debug">
+    <body>
         <header>
-            <nav> 
+            <nav class="navbar ms_navbar">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-5 col-md-4"></div>
-                        <div class="col-xs-2 col-xs-offset-5 col-md-4 col-md-offset-4"></div>
-                    </div>   
-                </div>
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">start bootstrap</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#">portfolio</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">contact</a></li>                 
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
+            <section id="jumbotron" class="text-center" > 
+                <img src="img/avatar.svg" alt="avatar">
+                <h1>Start Bootstrap</h1>
+                <div class="star">
+                    <hr>
+                    <i class="fas fa-star"></i>
+                    <hr>
+                </div>
+                <h3>Graphic Artist - Web Designer - Illustrator</h3>
+            </section>
         </header>
 
-        <section class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3"></div>
-                </div>
-            </div>
-        </section>
 
         <main>
-            <div id="portfoglio" class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3"></div>
+            <section id="portfoglio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorpink"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorlightblue"></div> 
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorblack"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorcyan"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorblue"></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfoglio_item colorsalmon"></div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <section id="about">
+                <div class="wrapper60">
+                    <div class="container-fluid">
+                        <h2 class="text-center">ABOUT</h2>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cumque molestias nobis eaque sed assumenda id porro quae commodi hic optio et blanditiis a doloremque iusto unde neque voluptatem suscipit modi necessitatibus provident officia distinctio. Minima accusamus molestiae mollitia est adipisci architecto amet. Nemo blanditiis quidem harum, ab eaque aspernatur?</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem architecto voluptatibus sequi libero non voluptate aliquid unde asperiores, eaque vitae sed omnis deserunt illum ullam placeat doloribus sit quo obcaecati, eligendi vero. Fuga accusantium, consequuntur quidem doloremque harum, at ipsam quae animi nisi quod repudiandae unde laborum quis eius ratione.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="image row">
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorpink"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorlightblue"></div> 
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorblack"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorcyan"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorblue"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="colorsalmon"></div>
+            </section>
+            <section id="contact">
+                <div class="wrapper60">
+                    <div class="container-fluid">
+                        
                     </div>
                 </div>
-                <section class="about">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-4 col-xs-offset-4"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2 col-lg-5 col-lg-offset-1"></div>
-                            <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0 col-lg-5"></div>
-                        </div>
+            </section>
+        </main>
+    
+        <footer>
+            <section id="around">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4"></div>
+                        <div class="col-xs-12 col-md-4"></div>
+                        <div class="col-xs-12 col-md-4"></div>
                     </div>
-                </section>
-            </main>
+                </div>
+            </section>
+            <section id="copyright">
     
-            <footer>
-                <section id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-4 col-xs-offset-4"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-8 col-xs-offset-2"></div>
-                        </div>
-                    </div>
-                </section>
-                <section id="around">
-    
-                </section>
-                <section id="copyright">
-    
-                </section>
-            </footer>
-    
-        </body>
-    </html>
+            </section>
+        </footer>
+    </body>
+</html>
                 
             
             
