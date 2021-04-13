@@ -45,11 +45,16 @@ h3 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.ms_navbar .nav>li>a:focus, .nav>li>a:hover {
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}
 /* /NAVBAR */
 
 
 #jumbotron {
-    padding: 50px 15px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 #jumbotron img {
     height: 260px;
@@ -131,9 +136,6 @@ main .btn-default {
     margin-right: 8px;
 }
 
-label {
-    font-size: 0;
-}
 .form-control {
     display: block;
     width: 100%;
@@ -162,6 +164,12 @@ label {
     border-radius: 0;
     background: none;
     box-shadow: none;
+}
+.ms_form .form-group {
+    border-bottom: 2px solid rgba(51, 51, 51, 0.2);
+}
+.ms_form button {
+    margin: 25px 0;
 }
 .list_inline {
     padding: 0;

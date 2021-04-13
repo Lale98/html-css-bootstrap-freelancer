@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar ms_navbar">
+            <nav class="navbar ms_navbar navbar-fixed-top">
                 <div class="container">
                   <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
@@ -29,9 +29,9 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#">portfolio</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">contact</a></li>                 
+                      <li><a href="#portfolio">portfolio</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#contact">contact</a></li>                 
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -122,37 +122,37 @@
                             <i class="fas fa-star"></i>
                             <hr>
                         </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." aria-invalid="false">
-                                <p class="help-block text-danger"></p>
+                        <form class="ms_form">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." aria-invalid="false">
-                                <p class="help-block text-danger"></p>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." aria-invalid="false">
-                                <p class="help-block text-danger"></p>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Phone Number</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
-                                <p class="help-block text-danger"></p>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="form-group"><button class="btn btn-default btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                            <button class="btn btn-default btn-xl" id="sendMessageButton" type="submit">Send</button>
+                        </form>
                     </div>
                 </div>
             </section>
