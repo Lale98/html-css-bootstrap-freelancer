@@ -186,12 +186,18 @@ main .btn-default {
     color: white;
 }
 
-#around .list_inline a {
-    padding: 15px;
+#around .ms_icon {
+    position: relative;
+    height: 40px;
     border: 1px solid white;
-    font-size: 20px;
     border-radius: 50%;
+    width: 40px;
 }
+#around .ms_icon i {
+    font-size: 20px;
+    line-height: 40px;
+}
+
 
 #around {
     background-color: #3A546D;
