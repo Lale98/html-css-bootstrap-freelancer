@@ -42,11 +42,7 @@ h3 {
     margin-bottom: 32px;
 }
 .ms_navbar .navbar-collapse {
-    background-color: rgb(44, 62, 80);
-    width: 25%;
-    position: fixed;
-    right: 0px;
-    text-align: center;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 .ms_navbar .nav>li>a:focus, .nav>li>a:hover {
@@ -244,4 +240,17 @@ main .btn-default {
         padding-bottom: 50px;
     }
     
+}
+
+@media screen and (max-width: 768px) {
+  
+    .ms_navbar .navbar-collapse{
+        background-color: rgb(44, 62, 80);
+        width: 25%;
+        position: fixed;
+        right: 0px;
+        text-align: center;
+        margin-top: 0;
+    }
+
 }
